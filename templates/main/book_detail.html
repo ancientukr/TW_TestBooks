@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block body_block%}
+
+    <p>{{ object.name }}</p>
+    <p>{{ object.author }}</p>
+    <p>{{object.description }}</p>
+    <a href="{% url "book_list" %}">Back</a>
+
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block body_block %}
+
+    <p>Search</p>
+
+    {% if book_lists %}
+        {% for book in book_lists %}
+                <li>{{ book.name }}  :
+                    <p>Author: {{ book.author }}</p>
+                    <p>Rating: {{ book.rating }}</p>
+                    <p>
+                        <a href="{% url "book_detail" book.slug %}">detail </a>
+                        <a href="{% url "book_edit" book.id %}">edit </a>
+                        <a href="{% url "book_delete" book.id %}">  delete</a>
+                    </p>
+                </li>
+        {% endfor %}
+
+        {% bootstrap_pagination book_lists url=last_question %}
+
+    {% else %}
+
+        <p>Not found</p>
+
+    {% endif %}
+
+     <a href="{% url "book_list" %}">Back</a>
+
+{% endblock %}
