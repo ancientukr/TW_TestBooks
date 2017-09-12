@@ -14,11 +14,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TW_TestBooks/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="137">
               <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/main/search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -61,10 +71,10 @@
         <option value="$PROJECT_DIR$/templates/main/book_confirm_delete.html" />
         <option value="$PROJECT_DIR$/templates/main/book_form.html" />
         <option value="$PROJECT_DIR$/templates/main/book_list.html" />
-        <option value="$PROJECT_DIR$/templates/main/search.html" />
         <option value="$PROJECT_DIR$/TW_TestBooks/urls.py" />
         <option value="$PROJECT_DIR$/TW_TestBooks/wsgi.py" />
         <option value="$PROJECT_DIR$/TW_TestBooks/settings.py" />
+        <option value="$PROJECT_DIR$/templates/main/search.html" />
       </list>
     </option>
   </component>
@@ -103,6 +113,17 @@
             <path>
               <item name="TW_TestBooks" type="b2602c69:ProjectViewProjectNode" />
               <item name="TW_TestBooks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TW_TestBooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TW_TestBooks" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TW_TestBooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TW_TestBooks" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TW_TestBooks" type="b2602c69:ProjectViewProjectNode" />
@@ -354,13 +375,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/main/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TW_TestBooks/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -379,6 +393,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
           <folding />
         </state>
       </provider>
